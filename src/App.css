@@ -14,14 +14,26 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #7397de;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.banner {
+  position:absolute;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    height: 600px;
+    /* background-image: url("../img/img2.jpg"); */
+    opacity: 80px;
+
+    padding-top: 150px;
 }
 
 .App-link {
@@ -35,4 +47,82 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.container {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+
+.menu {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: larger;
+  /* background-color: #D16176; */
+  text-align: center;
+  padding-top: 15px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+}
+
+.menuitem {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.menuitemselected {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #050606;
+}
+
+.menuitem a {
+  text-decoration: none;
+  color: #f3eaeb;
+}
+
+.content {
+  display: block;
+  width: 100%;
+  /* background-color: #cffffd; */
+  min-height: 500px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+
+.homecontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+.homecontent h1 {
+  text-align: left;
+} 
+.contenttext {
+  text-align: justify;
+}
+
+
+
+
+
+
+.footer {
+  display: block;
+  width: 100%;
+  height: 40px;
+  /* background-color: #D16176; */
+  text-align: center;
+  padding-top: 10px;
+  margin: 0px 0px 0px 0px;
+  /* color: #9c1018; */
 }
